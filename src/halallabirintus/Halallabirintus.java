@@ -4,6 +4,7 @@
  */
 package halallabirintus;
 
+import javax.swing.JOptionPane;
 import javax.swing.JTabbedPane;
 
 public class Halallabirintus extends javax.swing.JFrame {
@@ -170,6 +171,11 @@ public class Halallabirintus extends javax.swing.JFrame {
         btnKezdoOldalKilepes.setFont(new java.awt.Font("Stencil", 0, 24)); // NOI18N
         btnKezdoOldalKilepes.setForeground(new java.awt.Color(255, 0, 51));
         btnKezdoOldalKilepes.setText("Kilépés");
+        btnKezdoOldalKilepes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnKezdoOldalKilepesActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -1317,6 +1323,7 @@ public class Halallabirintus extends javax.swing.JFrame {
     }//GEN-LAST:event_btnKezdoOldalKarakterActionPerformed
 
     private void btnJatekActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnJatekActionPerformed
+            JOptionPane.showMessageDialog(rootPane, "A játék indul.. Sok Sikert!");
             jtpElsoOldal.setSelectedIndex(2);
     }//GEN-LAST:event_btnJatekActionPerformed
 
@@ -1367,6 +1374,11 @@ public class Halallabirintus extends javax.swing.JFrame {
     private void btn137OldalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn137OldalActionPerformed
             jtpElsoOldal.setSelectedIndex(10);
     }//GEN-LAST:event_btn137OldalActionPerformed
+
+    private void btnKezdoOldalKilepesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKezdoOldalKilepesActionPerformed
+        JOptionPane.showMessageDialog(rootPane, "Az alkalmazás bezárása folyamatban..");
+        System.exit(WIDTH);
+    }//GEN-LAST:event_btnKezdoOldalKilepesActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
