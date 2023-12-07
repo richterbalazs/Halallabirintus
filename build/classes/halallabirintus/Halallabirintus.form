@@ -1383,6 +1383,9 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Kelet fel&#xe9; veszem az ir&#xe1;nyt [293]"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOldal373KeletActionPerformed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel39">
                   <Properties>
@@ -1845,6 +1848,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Visszamegyek, majd elindulok &#xc9;szak fel&#xe9;. [387]"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn137OldalActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel57">
               <Properties>

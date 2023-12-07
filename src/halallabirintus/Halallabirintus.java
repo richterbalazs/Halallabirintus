@@ -838,6 +838,11 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/373. oldal.png"))); // NOI18N
 
         btnOldal373Kelet.setText("Kelet felé veszem az irányt [293]");
+        btnOldal373Kelet.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOldal373KeletActionPerformed(evt);
+            }
+        });
 
         jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/ugyesseg.png"))); // NOI18N
         jLabel39.setText("Ügyesség:");
@@ -1121,6 +1126,11 @@ public class Halallabirintus extends javax.swing.JFrame {
         scpOldal137.setViewportView(jTextArea8);
 
         btn137Oldal.setText("Visszamegyek, majd elindulok Észak felé. [387]");
+        btn137Oldal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn137OldalActionPerformed(evt);
+            }
+        });
 
         jLabel57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/eletero.png"))); // NOI18N
         jLabel57.setText("Életerő:");
@@ -1335,20 +1345,28 @@ public class Halallabirintus extends javax.swing.JFrame {
     }//GEN-LAST:event_btnOldal56KettevagasActionPerformed
 
     private void btnOldal56MaszasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOldal56MaszasActionPerformed
-            jtpElsoOldal.setSelectedIndex(2);
+            jtpElsoOldal.setSelectedIndex(7);
     }//GEN-LAST:event_btnOldal56MaszasActionPerformed
 
     private void btnOldal215KeletActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOldal215KeletActionPerformed
-            jtpElsoOldal.setSelectedIndex(2);
+            jtpElsoOldal.setSelectedIndex(8);
     }//GEN-LAST:event_btnOldal215KeletActionPerformed
 
     private void btnOldal293NyugatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOldal293NyugatActionPerformed
-            jtpElsoOldal.setSelectedIndex(3);
+            jtpElsoOldal.setSelectedIndex(9);
     }//GEN-LAST:event_btnOldal293NyugatActionPerformed
 
     private void btnOldal293EszakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOldal293EszakActionPerformed
-            jtpElsoOldal.setSelectedIndex(4);
+            jtpElsoOldal.setSelectedIndex(10);
     }//GEN-LAST:event_btnOldal293EszakActionPerformed
+
+    private void btnOldal373KeletActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOldal373KeletActionPerformed
+            jtpElsoOldal.setSelectedIndex(10);
+    }//GEN-LAST:event_btnOldal373KeletActionPerformed
+
+    private void btn137OldalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn137OldalActionPerformed
+            jtpElsoOldal.setSelectedIndex(10);
+    }//GEN-LAST:event_btn137OldalActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
