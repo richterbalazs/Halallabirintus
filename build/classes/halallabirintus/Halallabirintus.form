@@ -527,6 +527,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="&#xc9;leter&#x151; kocka"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEleteroKockaActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="lblEleteroEredmeny">
               <Properties>
@@ -542,6 +545,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Szerencse kocka"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSzerencseKockaActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="btnUgyessegKocka">
               <Properties>
@@ -706,6 +712,16 @@
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                       <AbsoluteConstraints x="320" y="90" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="270" y="40" width="-1" height="-1"/>
                     </Constraint>
                   </Constraints>
                 </Component>

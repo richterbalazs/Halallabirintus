@@ -4,6 +4,7 @@
  */
 package halallabirintus;
 
+import java.util.Random;
 import javax.swing.JOptionPane;
 import javax.swing.JTabbedPane;
 
@@ -60,6 +61,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         scpOldal1Szoveg = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         pnl66Oldal = new javax.swing.JPanel();
@@ -365,12 +367,22 @@ public class Halallabirintus extends javax.swing.JFrame {
         lblKarakterKep.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/yasuo.png"))); // NOI18N
 
         btnEleteroKocka.setText("Életerő kocka");
+        btnEleteroKocka.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEleteroKockaActionPerformed(evt);
+            }
+        });
 
         lblEleteroEredmeny.setText("0");
 
         lblEletereoEredmenyFelirat.setText("Eredmény:");
 
         btnSzerencseKocka.setText("Szerencse kocka");
+        btnSzerencseKocka.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSzerencseKockaActionPerformed(evt);
+            }
+        });
 
         btnUgyessegKocka.setText("Ügyesség kocka");
 
@@ -501,6 +513,9 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/gold.png"))); // NOI18N
         jLabel22.setText("Arany:");
         pnlOldal1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, -1, -1));
+
+        jLabel9.setText("0");
+        pnlOldal1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 40, -1, -1));
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -1380,6 +1395,54 @@ public class Halallabirintus extends javax.swing.JFrame {
         System.exit(WIDTH);
     }//GEN-LAST:event_btnKezdoOldalKilepesActionPerformed
 
+    private void btnEleteroKockaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEleteroKockaActionPerformed
+        Random rd = new Random();
+               int random=0;
+        random = rd.nextInt(12)+1;
+        switch(random){
+            case 1:
+                lblEleteroEredmeny.setText("1");
+                break;
+            case 2:
+                lblEleteroEredmeny.setText("2");
+                break;
+            case 3:
+                lblEleteroEredmeny.setText("3");
+                break;
+            case 4:
+                lblEleteroEredmeny.setText("4");
+                break;
+            case 5:
+                lblEleteroEredmeny.setText("5");
+                break;
+            case 6:
+                lblEleteroEredmeny.setText("6");
+                break;
+            case 7:
+                lblEleteroEredmeny.setText("7");
+                break;
+            case 8:
+                lblEleteroEredmeny.setText("8");
+                break;
+            case 9:
+                lblEleteroEredmeny.setText("9");
+                break;
+            case 10:
+                lblEleteroEredmeny.setText("10");
+                break;
+            case 11:
+                lblEleteroEredmeny.setText("11");
+                break;
+            case 12:
+                lblEleteroEredmeny.setText("12");
+                break;
+        }
+    }//GEN-LAST:event_btnEleteroKockaActionPerformed
+
+    private void btnSzerencseKockaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSzerencseKockaActionPerformed
+       
+    }//GEN-LAST:event_btnSzerencseKockaActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -1495,6 +1558,7 @@ public class Halallabirintus extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
