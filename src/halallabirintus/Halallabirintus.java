@@ -35,7 +35,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         pnlKarakter = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        lblKarakterUgyesseg = new javax.swing.JLabel();
         lblKarakterSzerencse = new javax.swing.JLabel();
         lblKarakterEletero = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -63,6 +63,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel22 = new javax.swing.JLabel();
         lblOldal1Eltero = new javax.swing.JLabel();
         lblOldal1Szerencse = new javax.swing.JLabel();
+        lblOldal1Ugyesseg = new javax.swing.JLabel();
         scpOldal1Szoveg = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         pnl66Oldal = new javax.swing.JPanel();
@@ -76,6 +77,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel25 = new javax.swing.JLabel();
         lblOldal66Eletero = new javax.swing.JLabel();
         lblOldal66Szerencse = new javax.swing.JLabel();
+        lblOldal66Ugyesseg = new javax.swing.JLabel();
         scpOldal66Szoveg = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
         pnl270Oldal = new javax.swing.JPanel();
@@ -90,6 +92,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel30 = new javax.swing.JLabel();
         lblOldal270Eletero = new javax.swing.JLabel();
         lblOldal270Szerencse = new javax.swing.JLabel();
+        lblOldal270Ugyesseg = new javax.swing.JLabel();
         pnl56Oldal = new javax.swing.JPanel();
         scpOldal56Szoveg = new javax.swing.JScrollPane();
         jTextArea4 = new javax.swing.JTextArea();
@@ -103,6 +106,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         btnOldal56Kettevagas = new javax.swing.JButton();
         lblOldal56Eletero = new javax.swing.JLabel();
         lblOldal56Szerencse = new javax.swing.JLabel();
+        lblOldal56Ugyesseg = new javax.swing.JLabel();
         pnl373Oldal = new javax.swing.JPanel();
         scpOldal373Szoveg = new javax.swing.JScrollPane();
         jTextArea5 = new javax.swing.JTextArea();
@@ -115,6 +119,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel40 = new javax.swing.JLabel();
         lblOldal373Szerencse = new javax.swing.JLabel();
         lblOldal373Eletero1 = new javax.swing.JLabel();
+        lblOldal373Ugyesseg = new javax.swing.JLabel();
         pnl215Oldal = new javax.swing.JPanel();
         scpOldal215Szoveg = new javax.swing.JScrollPane();
         jTextArea6 = new javax.swing.JTextArea();
@@ -127,6 +132,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel43 = new javax.swing.JLabel();
         lblOldal215Eletero = new javax.swing.JLabel();
         lblOldal215Szerencse = new javax.swing.JLabel();
+        lblOldal215Ugyesseg = new javax.swing.JLabel();
         pnl293Oldal = new javax.swing.JPanel();
         scpOldal293Szoveg = new javax.swing.JScrollPane();
         jTextArea7 = new javax.swing.JTextArea();
@@ -140,6 +146,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         btnOldal293Nyugat = new javax.swing.JButton();
         lblOldal293Eletero = new javax.swing.JLabel();
         lblOldal293Szerencse = new javax.swing.JLabel();
+        lblOldal293Ugyesseg = new javax.swing.JLabel();
         pnlOldal137 = new javax.swing.JPanel();
         scpOldal137 = new javax.swing.JScrollPane();
         jTextArea8 = new javax.swing.JTextArea();
@@ -150,6 +157,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel60 = new javax.swing.JLabel();
         lblOldal137Eletero = new javax.swing.JLabel();
         lblOldal137Szerencse = new javax.swing.JLabel();
+        lblOldal137Ugyesseg = new javax.swing.JLabel();
         pnlOldal387 = new javax.swing.JPanel();
         scpOldal387 = new javax.swing.JScrollPane();
         jTextArea9 = new javax.swing.JTextArea();
@@ -167,6 +175,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         btnHarc = new javax.swing.JButton();
         lblOldal387Eletero = new javax.swing.JLabel();
         lblOldal387Szerencse = new javax.swing.JLabel();
+        lblOldal387Ugyesseg = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Halállabirintus");
@@ -310,7 +319,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/szerencse.png"))); // NOI18N
         jLabel4.setText("Szerencse:");
 
-        jLabel8.setText("0");
+        lblKarakterUgyesseg.setText("0");
 
         lblKarakterSzerencse.setText("0");
 
@@ -329,7 +338,7 @@ public class Halallabirintus extends javax.swing.JFrame {
                     .addGroup(pnlKarakterLayout.createSequentialGroup()
                         .addComponent(jLabel5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel8))
+                        .addComponent(lblKarakterUgyesseg))
                     .addGroup(pnlKarakterLayout.createSequentialGroup()
                         .addGroup(pnlKarakterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel4)
@@ -354,7 +363,7 @@ public class Halallabirintus extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(pnlKarakterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
-                    .addComponent(jLabel8))
+                    .addComponent(lblKarakterUgyesseg))
                 .addContainerGap())
         );
 
@@ -402,6 +411,11 @@ public class Halallabirintus extends javax.swing.JFrame {
         });
 
         btnUgyessegKocka.setText("Ügyesség kocka");
+        btnUgyessegKocka.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUgyessegKockaActionPerformed(evt);
+            }
+        });
 
         lblSzerencseEredmenyFelirat.setText("Eredmény:");
 
@@ -517,7 +531,7 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/eletero.png"))); // NOI18N
         jLabel16.setText("Életerő:");
-        pnlOldal1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 30, 80, 30));
+        pnlOldal1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 30, 80, 30));
 
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/szerencse.png"))); // NOI18N
         jLabel17.setText("Szerencse:");
@@ -525,17 +539,20 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/ugyesseg.png"))); // NOI18N
         jLabel19.setText("Ügyesség:");
-        pnlOldal1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 90, -1, -1));
+        pnlOldal1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 90, -1, -1));
 
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/gold.png"))); // NOI18N
         jLabel22.setText("Arany:");
-        pnlOldal1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, -1, -1));
+        pnlOldal1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 90, -1, -1));
 
         lblOldal1Eltero.setText("0");
-        pnlOldal1.add(lblOldal1Eltero, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 40, -1, -1));
+        pnlOldal1.add(lblOldal1Eltero, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, -1, -1));
 
         lblOldal1Szerencse.setText("0");
         pnlOldal1.add(lblOldal1Szerencse, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 40, 20, -1));
+
+        lblOldal1Ugyesseg.setText("0");
+        pnlOldal1.add(lblOldal1Ugyesseg, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 100, 20, -1));
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -600,6 +617,8 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         lblOldal66Szerencse.setText("0");
 
+        lblOldal66Ugyesseg.setText("0");
+
         javax.swing.GroupLayout pnlOldal66Layout = new javax.swing.GroupLayout(pnlOldal66);
         pnlOldal66.setLayout(pnlOldal66Layout);
         pnlOldal66Layout.setHorizontalGroup(
@@ -623,6 +642,8 @@ public class Halallabirintus extends javax.swing.JFrame {
                                 .addGap(28, 28, 28))
                             .addGroup(pnlOldal66Layout.createSequentialGroup()
                                 .addComponent(jLabel24)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblOldal66Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                         .addGroup(pnlOldal66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(pnlOldal66Layout.createSequentialGroup()
@@ -651,7 +672,8 @@ public class Halallabirintus extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(pnlOldal66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel24)
-                            .addComponent(jLabel25))
+                            .addComponent(jLabel25)
+                            .addComponent(lblOldal66Ugyesseg))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnOldal66Kelet)
                         .addGap(18, 18, 18)
@@ -718,6 +740,8 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         lblOldal270Szerencse.setText("0");
 
+        lblOldal270Ugyesseg.setText("0");
+
         javax.swing.GroupLayout pnlOldal270Layout = new javax.swing.GroupLayout(pnlOldal270);
         pnlOldal270.setLayout(pnlOldal270Layout);
         pnlOldal270Layout.setHorizontalGroup(
@@ -733,8 +757,11 @@ public class Halallabirintus extends javax.swing.JFrame {
                                 .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(lblOldal270Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel29))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                            .addGroup(pnlOldal270Layout.createSequentialGroup()
+                                .addComponent(jLabel29)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblOldal270Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
                         .addGroup(pnlOldal270Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel30)
                             .addGroup(pnlOldal270Layout.createSequentialGroup()
@@ -760,7 +787,8 @@ public class Halallabirintus extends javax.swing.JFrame {
                         .addGap(39, 39, 39)
                         .addGroup(pnlOldal270Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel29)
-                            .addComponent(jLabel30))
+                            .addComponent(jLabel30)
+                            .addComponent(lblOldal270Ugyesseg))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btnOldal270Eszak))
                     .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -828,6 +856,8 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         lblOldal56Szerencse.setText("0");
 
+        lblOldal56Ugyesseg.setText("0");
+
         javax.swing.GroupLayout pnlOldal56Layout = new javax.swing.GroupLayout(pnlOldal56);
         pnlOldal56.setLayout(pnlOldal56Layout);
         pnlOldal56Layout.setHorizontalGroup(
@@ -843,7 +873,10 @@ public class Halallabirintus extends javax.swing.JFrame {
                                 .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(13, 13, 13)
                                 .addComponent(lblOldal56Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel34))
+                            .addGroup(pnlOldal56Layout.createSequentialGroup()
+                                .addComponent(jLabel34)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblOldal56Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(pnlOldal56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(pnlOldal56Layout.createSequentialGroup()
                                 .addGap(1, 1, 1)
@@ -876,7 +909,8 @@ public class Halallabirintus extends javax.swing.JFrame {
                         .addGroup(pnlOldal56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel33)
                             .addComponent(jLabel34)
-                            .addComponent(lblOldal56Szerencse))
+                            .addComponent(lblOldal56Szerencse)
+                            .addComponent(lblOldal56Ugyesseg))
                         .addGap(18, 18, 18)
                         .addComponent(btnOldal56Kettevagas)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -940,6 +974,8 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         lblOldal373Eletero1.setText("0");
 
+        lblOldal373Ugyesseg.setText("0");
+
         javax.swing.GroupLayout pnlOldal373Layout = new javax.swing.GroupLayout(pnlOldal373);
         pnlOldal373.setLayout(pnlOldal373Layout);
         pnlOldal373Layout.setHorizontalGroup(
@@ -951,9 +987,15 @@ public class Halallabirintus extends javax.swing.JFrame {
                     .addGroup(pnlOldal373Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addGroup(pnlOldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel39)
-                            .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
+                            .addGroup(pnlOldal373Layout.createSequentialGroup()
+                                .addComponent(jLabel39)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(lblOldal373Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(pnlOldal373Layout.createSequentialGroup()
+                                .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblOldal373Eletero1, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
                         .addGroup(pnlOldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel38)
                             .addGroup(pnlOldal373Layout.createSequentialGroup()
@@ -965,11 +1007,6 @@ public class Halallabirintus extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 46, Short.MAX_VALUE)
                         .addComponent(btnOldal373Kelet)
                         .addGap(34, 34, 34))))
-            .addGroup(pnlOldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlOldal373Layout.createSequentialGroup()
-                    .addContainerGap(270, Short.MAX_VALUE)
-                    .addComponent(lblOldal373Eletero1, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(143, 143, 143)))
         );
         pnlOldal373Layout.setVerticalGroup(
             pnlOldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -981,20 +1018,17 @@ public class Halallabirintus extends javax.swing.JFrame {
                         .addGap(8, 8, 8)
                         .addGroup(pnlOldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel37)
-                            .addComponent(jLabel38))
+                            .addComponent(jLabel38)
+                            .addComponent(lblOldal373Eletero1))
                         .addGap(39, 39, 39)
                         .addGroup(pnlOldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel39)
                             .addComponent(jLabel40)
-                            .addComponent(lblOldal373Szerencse))
+                            .addComponent(lblOldal373Szerencse)
+                            .addComponent(lblOldal373Ugyesseg))
                         .addGap(31, 31, 31)
                         .addComponent(btnOldal373Kelet)))
                 .addGap(6, 6, 6))
-            .addGroup(pnlOldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(pnlOldal373Layout.createSequentialGroup()
-                    .addGap(31, 31, 31)
-                    .addComponent(lblOldal373Eletero1)
-                    .addContainerGap(152, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout pnl373OldalLayout = new javax.swing.GroupLayout(pnl373Oldal);
@@ -1053,6 +1087,8 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         lblOldal215Szerencse.setText("0");
 
+        lblOldal215Ugyesseg.setText("0");
+
         javax.swing.GroupLayout pnlOldal215Layout = new javax.swing.GroupLayout(pnlOldal215);
         pnlOldal215.setLayout(pnlOldal215Layout);
         pnlOldal215Layout.setHorizontalGroup(
@@ -1068,8 +1104,11 @@ public class Halallabirintus extends javax.swing.JFrame {
                                 .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(lblOldal215Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel44))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+                            .addGroup(pnlOldal215Layout.createSequentialGroup()
+                                .addComponent(jLabel44)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(lblOldal215Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
                         .addGroup(pnlOldal215Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel43)
                             .addGroup(pnlOldal215Layout.createSequentialGroup()
@@ -1096,7 +1135,8 @@ public class Halallabirintus extends javax.swing.JFrame {
                         .addGroup(pnlOldal215Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel44)
                             .addComponent(jLabel45)
-                            .addComponent(lblOldal215Szerencse))
+                            .addComponent(lblOldal215Szerencse)
+                            .addComponent(lblOldal215Ugyesseg))
                         .addGap(18, 18, 18)
                         .addComponent(btnOldal215Kelet))
                     .addGroup(pnlOldal215Layout.createSequentialGroup()
@@ -1167,6 +1207,8 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         lblOldal293Szerencse.setText("0");
 
+        lblOldal293Ugyesseg.setText("0");
+
         javax.swing.GroupLayout pnlOldal293Layout = new javax.swing.GroupLayout(pnlOldal293);
         pnlOldal293.setLayout(pnlOldal293Layout);
         pnlOldal293Layout.setHorizontalGroup(
@@ -1178,12 +1220,15 @@ public class Halallabirintus extends javax.swing.JFrame {
                     .addGroup(pnlOldal293Layout.createSequentialGroup()
                         .addGap(6, 6, 6)
                         .addGroup(pnlOldal293Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel55)
                             .addGroup(pnlOldal293Layout.createSequentialGroup()
                                 .addComponent(jLabel53, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(lblOldal293Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(26, 26, 26)
+                                .addComponent(lblOldal293Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(pnlOldal293Layout.createSequentialGroup()
+                                .addComponent(jLabel55)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lblOldal293Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(25, 25, 25)
                         .addGroup(pnlOldal293Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel54)
                             .addGroup(pnlOldal293Layout.createSequentialGroup()
@@ -1212,7 +1257,8 @@ public class Halallabirintus extends javax.swing.JFrame {
                         .addGroup(pnlOldal293Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel55)
                             .addComponent(jLabel56)
-                            .addComponent(lblOldal293Szerencse))
+                            .addComponent(lblOldal293Szerencse)
+                            .addComponent(lblOldal293Ugyesseg))
                         .addGap(18, 18, 18)
                         .addComponent(btnOldal293Nyugat)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1270,6 +1316,8 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         lblOldal137Szerencse.setText("0");
 
+        lblOldal137Ugyesseg.setText("0");
+
         javax.swing.GroupLayout pnlOldal137Layout = new javax.swing.GroupLayout(pnlOldal137);
         pnlOldal137.setLayout(pnlOldal137Layout);
         pnlOldal137Layout.setHorizontalGroup(
@@ -1283,11 +1331,12 @@ public class Halallabirintus extends javax.swing.JFrame {
                     .addGroup(pnlOldal137Layout.createSequentialGroup()
                         .addComponent(jLabel57, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblOldal137Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 193, Short.MAX_VALUE))
+                        .addComponent(lblOldal137Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(pnlOldal137Layout.createSequentialGroup()
                         .addComponent(jLabel59)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lblOldal137Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(pnlOldal137Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel58)
                     .addGroup(pnlOldal137Layout.createSequentialGroup()
@@ -1314,7 +1363,8 @@ public class Halallabirintus extends javax.swing.JFrame {
                 .addGroup(pnlOldal137Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel60)
                     .addComponent(jLabel59)
-                    .addComponent(lblOldal137Szerencse))
+                    .addComponent(lblOldal137Szerencse)
+                    .addComponent(lblOldal137Ugyesseg))
                 .addGap(30, 30, 30)
                 .addComponent(btn137Oldal)
                 .addContainerGap())
@@ -1355,6 +1405,8 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         lblOldal387Szerencse.setText("0");
 
+        lblOldal387Ugyesseg.setText("0");
+
         javax.swing.GroupLayout pnlOldal387Layout = new javax.swing.GroupLayout(pnlOldal387);
         pnlOldal387.setLayout(pnlOldal387Layout);
         pnlOldal387Layout.setHorizontalGroup(
@@ -1388,7 +1440,9 @@ public class Halallabirintus extends javax.swing.JFrame {
                                 .addComponent(lblOldal387Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(pnlOldal387Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
-                                .addComponent(lblOldal387Szerencse, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblOldal387Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblOldal387Szerencse, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(58, 58, 58)
                         .addComponent(jLabel63)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1428,14 +1482,13 @@ public class Halallabirintus extends javax.swing.JFrame {
                                 .addComponent(jLabel68)
                                 .addComponent(lblOldal387Eletero))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(jLabel66)
+                                .addComponent(lblOldal387Ugyesseg))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(pnlOldal387Layout.createSequentialGroup()
-                                    .addComponent(jLabel66)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jLabel70))
-                                .addGroup(pnlOldal387Layout.createSequentialGroup()
-                                    .addGap(0, 0, Short.MAX_VALUE)
-                                    .addComponent(lblOldal387Szerencse))))
+                                .addComponent(jLabel70, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(lblOldal387Szerencse, javax.swing.GroupLayout.Alignment.TRAILING)))
                         .addGroup(pnlOldal387Layout.createSequentialGroup()
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1859,6 +1912,170 @@ public class Halallabirintus extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnSzerencseKockaActionPerformed
 
+    private void btnUgyessegKockaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUgyessegKockaActionPerformed
+        Random rd = new Random();
+        int random3 = 0;
+        random3 = rd.nextInt((12)+1);
+        switch(random3) {
+            case 1:
+                lblUgyessegKockaEredmeny.setText("1");
+                lblKarakterUgyesseg.setText("1");
+                lblOldal1Ugyesseg.setText("1");
+                lblOldal66Ugyesseg.setText("1");
+                lblOldal56Ugyesseg.setText("1");
+                lblOldal293Ugyesseg.setText("1");
+                lblOldal137Ugyesseg.setText("1");
+                lblOldal387Ugyesseg.setText("1");
+                lblOldal270Ugyesseg.setText("1");
+                lblOldal215Ugyesseg.setText("1");
+                lblOldal373Ugyesseg.setText("1");
+                break;
+            case 2:
+                lblUgyessegKockaEredmeny.setText("2");
+                lblKarakterUgyesseg.setText("2");
+                lblOldal1Ugyesseg.setText("2");
+                lblOldal66Ugyesseg.setText("2");
+                lblOldal56Ugyesseg.setText("2");
+                lblOldal293Ugyesseg.setText("2");
+                lblOldal137Ugyesseg.setText("2");
+                lblOldal387Ugyesseg.setText("2");
+                lblOldal270Ugyesseg.setText("2");
+                lblOldal215Ugyesseg.setText("2");
+                lblOldal373Ugyesseg.setText("2");
+                break;
+            case 3:
+                lblUgyessegKockaEredmeny.setText("3");
+                lblKarakterUgyesseg.setText("3");
+                lblOldal1Ugyesseg.setText("3");
+                lblOldal66Ugyesseg.setText("3");
+                lblOldal56Ugyesseg.setText("3");
+                lblOldal293Ugyesseg.setText("3");
+                lblOldal137Ugyesseg.setText("3");
+                lblOldal387Ugyesseg.setText("3");
+                lblOldal270Ugyesseg.setText("3");
+                lblOldal215Ugyesseg.setText("3");
+                lblOldal373Ugyesseg.setText("3");
+                break;
+            case 4:
+                lblUgyessegKockaEredmeny.setText("4");
+                lblKarakterUgyesseg.setText("4");
+                lblOldal1Ugyesseg.setText("4");
+                lblOldal66Ugyesseg.setText("4");
+                lblOldal56Ugyesseg.setText("4");
+                lblOldal293Ugyesseg.setText("4");
+                lblOldal137Ugyesseg.setText("4");
+                lblOldal387Ugyesseg.setText("4");
+                lblOldal270Ugyesseg.setText("4");
+                lblOldal215Ugyesseg.setText("4");
+                lblOldal373Ugyesseg.setText("4");
+                break;
+            case 5:
+                lblUgyessegKockaEredmeny.setText("5");
+                lblKarakterUgyesseg.setText("5");
+                lblOldal1Ugyesseg.setText("5");
+                lblOldal66Ugyesseg.setText("5");
+                lblOldal56Ugyesseg.setText("5");
+                lblOldal293Ugyesseg.setText("5");
+                lblOldal137Ugyesseg.setText("5");
+                lblOldal387Ugyesseg.setText("5");
+                lblOldal270Ugyesseg.setText("5");
+                lblOldal215Ugyesseg.setText("5");
+                lblOldal373Ugyesseg.setText("5");
+                break;
+            case 6:
+                lblUgyessegKockaEredmeny.setText("6");
+                lblKarakterUgyesseg.setText("6");
+                lblOldal1Ugyesseg.setText("6");
+                lblOldal66Ugyesseg.setText("6");
+                lblOldal56Ugyesseg.setText("6");
+                lblOldal293Ugyesseg.setText("6");
+                lblOldal137Ugyesseg.setText("6");
+                lblOldal387Ugyesseg.setText("6");
+                lblOldal270Ugyesseg.setText("6");
+                lblOldal215Ugyesseg.setText("6");
+                lblOldal373Ugyesseg.setText("6");
+                break;
+            case 7:
+                lblUgyessegKockaEredmeny.setText("7");
+                lblKarakterUgyesseg.setText("7");
+                lblOldal1Ugyesseg.setText("7");
+                lblOldal66Ugyesseg.setText("7");
+                lblOldal56Ugyesseg.setText("7");
+                lblOldal293Ugyesseg.setText("7");
+                lblOldal137Ugyesseg.setText("7");
+                lblOldal387Ugyesseg.setText("7");
+                lblOldal270Ugyesseg.setText("7");
+                lblOldal215Ugyesseg.setText("7");
+                lblOldal373Ugyesseg.setText("7");
+                break;
+            case 8:
+                lblUgyessegKockaEredmeny.setText("8");
+                lblKarakterUgyesseg.setText("8");
+                lblOldal1Ugyesseg.setText("8");
+                lblOldal66Ugyesseg.setText("8");
+                lblOldal56Ugyesseg.setText("8");
+                lblOldal293Ugyesseg.setText("8");
+                lblOldal137Ugyesseg.setText("8");
+                lblOldal387Ugyesseg.setText("8");
+                lblOldal270Ugyesseg.setText("8");
+                lblOldal215Ugyesseg.setText("8");
+                lblOldal373Ugyesseg.setText("8");
+                break;
+            case 9:
+                lblUgyessegKockaEredmeny.setText("9");
+                lblKarakterUgyesseg.setText("9");
+                lblOldal1Ugyesseg.setText("9");
+                lblOldal66Ugyesseg.setText("9");
+                lblOldal56Ugyesseg.setText("9");
+                lblOldal293Ugyesseg.setText("9");
+                lblOldal137Ugyesseg.setText("9");
+                lblOldal387Ugyesseg.setText("9");
+                lblOldal270Ugyesseg.setText("9");
+                lblOldal215Ugyesseg.setText("9");
+                lblOldal373Ugyesseg.setText("9");
+                break;
+            case 10:
+                lblUgyessegKockaEredmeny.setText("10");
+                lblKarakterUgyesseg.setText("10");
+                lblOldal1Ugyesseg.setText("10");
+                lblOldal66Ugyesseg.setText("10");
+                lblOldal56Ugyesseg.setText("10");
+                lblOldal293Ugyesseg.setText("10");
+                lblOldal137Ugyesseg.setText("10");
+                lblOldal387Ugyesseg.setText("10");
+                lblOldal270Ugyesseg.setText("10");
+                lblOldal215Ugyesseg.setText("10");
+                lblOldal373Ugyesseg.setText("10");
+                break;
+            case 11:
+                lblUgyessegKockaEredmeny.setText("11");
+                lblKarakterUgyesseg.setText("11");
+                lblOldal1Ugyesseg.setText("11");
+                lblOldal66Ugyesseg.setText("11");
+                lblOldal56Ugyesseg.setText("11");
+                lblOldal293Ugyesseg.setText("11");
+                lblOldal137Ugyesseg.setText("11");
+                lblOldal387Ugyesseg.setText("11");
+                lblOldal270Ugyesseg.setText("11");
+                lblOldal215Ugyesseg.setText("11");
+                lblOldal373Ugyesseg.setText("11");
+                break;
+            case 12:
+                lblUgyessegKockaEredmeny.setText("12");
+                lblKarakterUgyesseg.setText("12");
+                lblOldal1Ugyesseg.setText("12");
+                lblOldal66Ugyesseg.setText("12");
+                lblOldal56Ugyesseg.setText("12");
+                lblOldal293Ugyesseg.setText("12");
+                lblOldal137Ugyesseg.setText("12");
+                lblOldal387Ugyesseg.setText("12");
+                lblOldal270Ugyesseg.setText("12");
+                lblOldal215Ugyesseg.setText("12");
+                lblOldal373Ugyesseg.setText("12");
+                break;
+        }
+    }//GEN-LAST:event_btnUgyessegKockaActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -1971,7 +2188,6 @@ public class Halallabirintus extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
@@ -1988,25 +2204,35 @@ public class Halallabirintus extends javax.swing.JFrame {
     private javax.swing.JLabel lblKarakterEletero;
     private javax.swing.JLabel lblKarakterKep;
     private javax.swing.JLabel lblKarakterSzerencse;
+    private javax.swing.JLabel lblKarakterUgyesseg;
     private javax.swing.JLabel lblKezdoOldalKep;
     private javax.swing.JLabel lblOldal137Eletero;
     private javax.swing.JLabel lblOldal137Szerencse;
+    private javax.swing.JLabel lblOldal137Ugyesseg;
     private javax.swing.JLabel lblOldal1Eltero;
     private javax.swing.JLabel lblOldal1Szerencse;
+    private javax.swing.JLabel lblOldal1Ugyesseg;
     private javax.swing.JLabel lblOldal215Eletero;
     private javax.swing.JLabel lblOldal215Szerencse;
+    private javax.swing.JLabel lblOldal215Ugyesseg;
     private javax.swing.JLabel lblOldal270Eletero;
     private javax.swing.JLabel lblOldal270Szerencse;
+    private javax.swing.JLabel lblOldal270Ugyesseg;
     private javax.swing.JLabel lblOldal293Eletero;
     private javax.swing.JLabel lblOldal293Szerencse;
+    private javax.swing.JLabel lblOldal293Ugyesseg;
     private javax.swing.JLabel lblOldal373Eletero1;
     private javax.swing.JLabel lblOldal373Szerencse;
+    private javax.swing.JLabel lblOldal373Ugyesseg;
     private javax.swing.JLabel lblOldal387Eletero;
     private javax.swing.JLabel lblOldal387Szerencse;
+    private javax.swing.JLabel lblOldal387Ugyesseg;
     private javax.swing.JLabel lblOldal56Eletero;
     private javax.swing.JLabel lblOldal56Szerencse;
+    private javax.swing.JLabel lblOldal56Ugyesseg;
     private javax.swing.JLabel lblOldal66Eletero;
     private javax.swing.JLabel lblOldal66Szerencse;
+    private javax.swing.JLabel lblOldal66Ugyesseg;
     private javax.swing.JLabel lblSzerencseEredmeny;
     private javax.swing.JLabel lblSzerencseEredmenyFelirat;
     private javax.swing.JLabel lblUgyessegKockaEredmeny;
