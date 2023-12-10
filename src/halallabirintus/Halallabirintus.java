@@ -170,7 +170,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel68 = new javax.swing.JLabel();
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
-        jLabel71 = new javax.swing.JLabel();
+        lblEllenfelEletero = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
         btnHarc = new javax.swing.JButton();
         lblOldal387Eletero = new javax.swing.JLabel();
@@ -1395,11 +1395,16 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jLabel70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kepek/szerencse.png"))); // NOI18N
 
-        jLabel71.setText("7");
+        lblEllenfelEletero.setText("7");
 
         jLabel72.setText("7");
 
         btnHarc.setText("Harc!");
+        btnHarc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnHarcActionPerformed(evt);
+            }
+        });
 
         lblOldal387Eletero.setText("0");
 
@@ -1420,20 +1425,20 @@ public class Halallabirintus extends javax.swing.JFrame {
                 .addComponent(jLabel62)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel64)
-                .addGap(116, 116, 116))
+                .addGap(128, 128, 128))
             .addGroup(pnlOldal387Layout.createSequentialGroup()
                 .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnlOldal387Layout.createSequentialGroup()
-                        .addComponent(jLabel61)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel66)
-                            .addComponent(jLabel70)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlOldal387Layout.createSequentialGroup()
-                        .addGap(132, 132, 132)
-                        .addComponent(jLabel68, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlOldal387Layout.createSequentialGroup()
+                            .addGroup(pnlOldal387Layout.createSequentialGroup()
+                                .addComponent(jLabel61)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel66)
+                                    .addComponent(jLabel70)))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlOldal387Layout.createSequentialGroup()
+                                .addGap(132, 132, 132)
+                                .addComponent(jLabel68, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(pnlOldal387Layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1450,13 +1455,13 @@ public class Halallabirintus extends javax.swing.JFrame {
                             .addGroup(pnlOldal387Layout.createSequentialGroup()
                                 .addComponent(jLabel65)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel71))
+                                .addComponent(lblEllenfelEletero))
                             .addGroup(pnlOldal387Layout.createSequentialGroup()
                                 .addComponent(jLabel69)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel72))))
                     .addGroup(pnlOldal387Layout.createSequentialGroup()
-                        .addGap(8, 8, 8)
+                        .addGap(184, 184, 184)
                         .addComponent(btnHarc)))
                 .addContainerGap(41, Short.MAX_VALUE))
         );
@@ -1470,7 +1475,7 @@ public class Halallabirintus extends javax.swing.JFrame {
                         .addGap(25, 25, 25)
                         .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel65)
-                            .addComponent(jLabel71))
+                            .addComponent(lblEllenfelEletero))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(pnlOldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel69)
@@ -2076,6 +2081,20 @@ public class Halallabirintus extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnUgyessegKockaActionPerformed
 
+    private void btnHarcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHarcActionPerformed
+        int a, b;
+        a=Integer.parseInt(lblOldal387Eletero.getText());
+        b=Integer.parseInt(lblEllenfelEletero.getText());
+        
+        if (a>b) {
+            JOptionPane.showMessageDialog(rootPane, "A játékos nyert!");
+        }
+        else{
+            JOptionPane.showMessageDialog(rootPane, "A szörny nyert!");
+        }
+        
+    }//GEN-LAST:event_btnHarcActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -2186,7 +2205,6 @@ public class Halallabirintus extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel70;
-    private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JTextArea jTextArea1;
@@ -2201,6 +2219,7 @@ public class Halallabirintus extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jtpElsoOldal;
     private javax.swing.JLabel lblEletereoEredmenyFelirat;
     private javax.swing.JLabel lblEleteroEredmeny;
+    private javax.swing.JLabel lblEllenfelEletero;
     private javax.swing.JLabel lblKarakterEletero;
     private javax.swing.JLabel lblKarakterKep;
     private javax.swing.JLabel lblKarakterSzerencse;
