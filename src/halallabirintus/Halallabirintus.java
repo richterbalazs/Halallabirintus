@@ -567,6 +567,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         lblOldal1Szerencse.setText("0");
         pnlOldal1.add(lblOldal1Szerencse, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 40, 20, -1));
 
+        jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jTextArea1.setText("Miután öt percet haladtál lassan az alagútban, egy kőasztalhoz érsz, amely a\nbal oldali fal mellett áll. Hat doboz van rajta, egyikükre a te neved festették.\nHa kiakarod nyitni a dobozt, lapozz a 270-re. Ha inkább tovább haladsz észak felé,\nlapozz a 66-ra.\n");
@@ -696,6 +697,7 @@ public class Halallabirintus extends javax.swing.JFrame {
                         .addGap(5, 5, 5))))
         );
 
+        jTextArea2.setEditable(false);
         jTextArea2.setColumns(20);
         jTextArea2.setRows(5);
         jTextArea2.setText("Néhány perc gyaloglás után egy elágazáshoz érsz az alagútban. \nEgy, a falra festett fehér nyíl nyugatfelé mutat. A földön nedves lábnyomok jelzik,\nmerre haladtak az előtted járók. Nehéz biztosan megmondani, de úgy tűnik,\nhogy három közülük a nyíl irányába halad, míg egyikük úgy döntött hogy keletnek\nmegy. Ha nyugat felé kívánsz menni, lapozz a 293-ra. Ha keletnek, lapozz a 56-re.");
@@ -723,6 +725,7 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jtpElsoOldal.addTab("Lap 66", pnl66Oldal);
 
+        jTextArea3.setEditable(false);
         jTextArea3.setColumns(20);
         jTextArea3.setRows(5);
         jTextArea3.setText("A doboz teteje könnyedén nyílik. Benne két aranypénzt találsz, és egy üzenetet,\namely egy kis pergamenen neked szól. Előbb zsebre vágod az aranyakat, aztán \nelolvasod az üzenetet:  „Jól tetted. Legalább volt annyi eszed, hogy megállj és\nelfogadd az ajándékot. Most azt tanácsolom neked, hogy keress és használj\nkülönféle tárgyakat, ha sikerrel akarsz áthaladni Halállabirintusomon.” Aláírás \nSzukumvit. Megjegyzed a tanácsot, apródarabokra téped a pergament, és tovább\nmész Észak felé. Lapozz a 66-ra.");
@@ -838,6 +841,7 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jtpElsoOldal.addTab("Lap 270", pnl270Oldal);
 
+        jTextArea4.setEditable(false);
         jTextArea4.setColumns(20);
         jTextArea4.setRows(5);
         jTextArea4.setText("Látod, hogy az akadály egy széles, barna, sziklaszerű tárgy.\nMegérinted, és meglepve tapasztalod, hogy lágy, szivacsszerű. \nHa át szeretnél mászni rajta, lapozz a 373-ra.\nHa ketté akarod vágni a kardoddal, lapozz a 215-re.");
@@ -963,6 +967,7 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jtpElsoOldal.addTab("Oldal 56", pnl56Oldal);
 
+        jTextArea6.setEditable(false);
         jTextArea6.setColumns(20);
         jTextArea6.setRows(5);
         jTextArea6.setText("Kardod könnyedén áthatol a spóragolyó vékonykülső burkán. Sűrű barna\nspórafelhő csap ki a golyóból, és körülvesz. Némelyik spóra a bőrödhöz tapad, \nés rettenetes viszketést okoz. Nagy daganatok nőnek az arcodon és karodon, és a \nbőröd mintha égne. 2 ÉLETERŐ pontot veszítesz. Vadul vakarózva átléped a\nleeresztett golyót, és keletnek veszed az utad.");
@@ -1083,6 +1088,7 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jtpElsoOldal.addTab("Oldal 215", pnl215Oldal);
 
+        jTextArea7.setEditable(false);
         jTextArea7.setColumns(20);
         jTextArea7.setRows(5);
         jTextArea7.setText("A három pár nedves lábnyomot követve az alagútnyugati elágazásában hamarosan\negy újabb el-ágazáshoz érsz. Ha továbbmész nyugat felé a lábnyomokat követve,\nlapozz a 137-re. Ha inkább észak felé mész a harmadik pár lábnyom után, lapozz\na 387-re.");
@@ -1210,6 +1216,7 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jtpElsoOldal.addTab("Oldal 293", pnl293Oldal);
 
+        jTextArea8.setEditable(false);
         jTextArea8.setColumns(20);
         jTextArea8.setRows(5);
         jTextArea8.setText("Ahogy végigmész az alagúton, csodálkozva látod, hogy egy jókora vasharang\ncsüng alá a boltozatról. Mit teszel?");
@@ -1255,13 +1262,12 @@ public class Halallabirintus extends javax.swing.JFrame {
                     .addGroup(pnlOldal137Layout.createSequentialGroup()
                         .addComponent(jLabel57, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblOldal137Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(lblOldal137Eletero, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(pnlOldal137Layout.createSequentialGroup()
                         .addComponent(jLabel59)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lblOldal137Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(lblOldal137Ugyesseg, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(pnlOldal137Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnlOldal137Layout.createSequentialGroup()
                         .addComponent(jLabel58)
@@ -1301,6 +1307,7 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jtpElsoOldal.addTab("Oldal 137", pnlOldal137);
 
+        jTextArea9.setEditable(false);
         jTextArea9.setColumns(20);
         jTextArea9.setRows(5);
         jTextArea9.setText("Hallod, hogy elölről súlyos lépések közelednek. Egy széles, állatbőrökbe öltözött, \nkőbaltás, primitívlény lép elő. Ahogy meglát, morog, a földre köp, majd a kőbaltát\nfelemelve közeledik, és mindennek kinéz, csak barátságosnak nem.\nElőhúzod kardodat, és felkészülsz, hogy megküzdj a Barlangi Emberrel.");
@@ -1439,6 +1446,7 @@ public class Halallabirintus extends javax.swing.JFrame {
 
         jtpElsoOldal.addTab("Oldal 387", pnlOldal387);
 
+        jTextArea5.setEditable(false);
         jTextArea5.setColumns(20);
         jTextArea5.setRows(5);
         jTextArea5.setText("Fölmászol a lágy sziklára, attól tartasz, hogy bár-melyik pillanatban elnyelhet. \nNehéz átvergődni rajta, mert puha anyagában alig tudod a lábadat emelni,\nde végül átvergődsz rajta. Megkönnyebbülten érsz újra szilárd talajra,\nés fordulsz kelet felé.");

@@ -772,6 +772,7 @@
               <SubComponents>
                 <Component class="javax.swing.JTextArea" name="jTextArea1">
                   <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
                     <Property name="text" type="java.lang.String" value="Miut&#xe1;n &#xf6;t percet haladt&#xe1;l lassan az alag&#xfa;tban, egy k&#x151;asztalhoz &#xe9;rsz, amely a&#xa;bal oldali fal mellett &#xe1;ll. Hat doboz van rajta, egyik&#xfc;kre a te neved festett&#xe9;k.&#xa;Ha kiakarod nyitni a dobozt, lapozz a 270-re. Ha ink&#xe1;bb tov&#xe1;bb haladsz &#xe9;szak fel&#xe9;,&#xa;lapozz a 66-ra.&#xa;"/>
@@ -990,6 +991,7 @@
               <SubComponents>
                 <Component class="javax.swing.JTextArea" name="jTextArea2">
                   <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
                     <Property name="text" type="java.lang.String" value="N&#xe9;h&#xe1;ny perc gyalogl&#xe1;s ut&#xe1;n egy el&#xe1;gaz&#xe1;shoz &#xe9;rsz az alag&#xfa;tban. &#xa;Egy, a falra festett feh&#xe9;r ny&#xed;l nyugatfel&#xe9; mutat. A f&#xf6;ld&#xf6;n nedves l&#xe1;bnyomok jelzik,&#xa;merre haladtak az el&#x151;tted j&#xe1;r&#xf3;k. Neh&#xe9;z biztosan megmondani, de &#xfa;gy t&#x171;nik,&#xa;hogy h&#xe1;rom k&#xf6;z&#xfc;l&#xfc;k a ny&#xed;l ir&#xe1;ny&#xe1;ba halad, m&#xed;g egyik&#xfc;k &#xfa;gy d&#xf6;nt&#xf6;tt hogy keletnek&#xa;megy. Ha nyugat fel&#xe9; k&#xed;v&#xe1;nsz menni, lapozz a 293-ra. Ha keletnek, lapozz a 56-re."/>
@@ -1042,6 +1044,7 @@
               <SubComponents>
                 <Component class="javax.swing.JTextArea" name="jTextArea3">
                   <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
                     <Property name="text" type="java.lang.String" value="A doboz teteje k&#xf6;nnyed&#xe9;n ny&#xed;lik. Benne k&#xe9;t aranyp&#xe9;nzt tal&#xe1;lsz, &#xe9;s egy &#xfc;zenetet,&#xa;amely egy kis pergamenen neked sz&#xf3;l. El&#x151;bb zsebre v&#xe1;god az aranyakat, azt&#xe1;n &#xa;elolvasod az &#xfc;zenetet:  &#x201e;J&#xf3;l tetted. Legal&#xe1;bb volt annyi eszed, hogy meg&#xe1;llj &#xe9;s&#xa;elfogadd az aj&#xe1;nd&#xe9;kot. Most azt tan&#xe1;csolom neked, hogy keress &#xe9;s haszn&#xe1;lj&#xa;k&#xfc;l&#xf6;nf&#xe9;le t&#xe1;rgyakat, ha sikerrel akarsz &#xe1;thaladni Hal&#xe1;llabirintusomon.&#x201d; Al&#xe1;&#xed;r&#xe1;s &#xa;Szukumvit. Megjegyzed a tan&#xe1;csot, apr&#xf3;darabokra t&#xe9;ped a pergament, &#xe9;s tov&#xe1;bb&#xa;m&#xe9;sz &#xc9;szak fel&#xe9;. Lapozz a 66-ra."/>
@@ -1247,6 +1250,7 @@
               <SubComponents>
                 <Component class="javax.swing.JTextArea" name="jTextArea4">
                   <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
                     <Property name="text" type="java.lang.String" value="L&#xe1;tod, hogy az akad&#xe1;ly egy sz&#xe9;les, barna, sziklaszer&#x171; t&#xe1;rgy.&#xa;Meg&#xe9;rinted, &#xe9;s meglepve tapasztalod, hogy l&#xe1;gy, szivacsszer&#x171;. &#xa;Ha &#xe1;t szeretn&#xe9;l m&#xe1;szni rajta, lapozz a 373-ra.&#xa;Ha kett&#xe9; akarod v&#xe1;gni a kardoddal, lapozz a 215-re."/>
@@ -1458,6 +1462,7 @@
               <SubComponents>
                 <Component class="javax.swing.JTextArea" name="jTextArea6">
                   <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
                     <Property name="text" type="java.lang.String" value="Kardod k&#xf6;nnyed&#xe9;n &#xe1;thatol a sp&#xf3;ragoly&#xf3; v&#xe9;konyk&#xfc;ls&#x151; burk&#xe1;n. S&#x171;r&#x171; barna&#xa;sp&#xf3;rafelh&#x151; csap ki a goly&#xf3;b&#xf3;l, &#xe9;s k&#xf6;r&#xfc;lvesz. N&#xe9;melyik sp&#xf3;ra a b&#x151;r&#xf6;dh&#xf6;z tapad, &#xa;&#xe9;s rettenetes viszket&#xe9;st okoz. Nagy daganatok n&#x151;nek az arcodon &#xe9;s karodon, &#xe9;s a &#xa;b&#x151;r&#xf6;d mintha &#xe9;gne. 2 &#xc9;LETER&#x150; pontot vesz&#xed;tesz. Vadul vakar&#xf3;zva &#xe1;tl&#xe9;ped a&#xa;leeresztett goly&#xf3;t, &#xe9;s keletnek veszed az utad."/>
@@ -1664,6 +1669,7 @@
               <SubComponents>
                 <Component class="javax.swing.JTextArea" name="jTextArea7">
                   <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
                     <Property name="text" type="java.lang.String" value="A h&#xe1;rom p&#xe1;r nedves l&#xe1;bnyomot k&#xf6;vetve az alag&#xfa;tnyugati el&#xe1;gaz&#xe1;s&#xe1;ban hamarosan&#xa;egy &#xfa;jabb el-&#xe1;gaz&#xe1;shoz &#xe9;rsz. Ha tov&#xe1;bbm&#xe9;sz nyugat fel&#xe9; a l&#xe1;bnyomokat k&#xf6;vetve,&#xa;lapozz a 137-re. Ha ink&#xe1;bb &#xe9;szak fel&#xe9; m&#xe9;sz a harmadik p&#xe1;r l&#xe1;bnyom ut&#xe1;n, lapozz&#xa;a 387-re."/>
@@ -1863,15 +1869,14 @@
                               <Component id="jLabel57" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="lblOldal137Eletero" min="-2" pref="19" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel59" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="lblOldal137Ugyesseg" min="-2" pref="19" max="-2" attributes="0"/>
-                              <EmptySpace min="62" max="32767" attributes="0"/>
                           </Group>
                       </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <Component id="jLabel58" min="-2" max="-2" attributes="0"/>
@@ -1929,6 +1934,7 @@
               <SubComponents>
                 <Component class="javax.swing.JTextArea" name="jTextArea8">
                   <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
                     <Property name="text" type="java.lang.String" value="Ahogy v&#xe9;gigm&#xe9;sz az alag&#xfa;ton, csod&#xe1;lkozva l&#xe1;tod, hogy egy j&#xf3;kora vasharang&#xa;cs&#xfc;ng al&#xe1; a boltozatr&#xf3;l. Mit teszel?"/>
@@ -2144,6 +2150,7 @@
               <SubComponents>
                 <Component class="javax.swing.JTextArea" name="jTextArea9">
                   <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
                     <Property name="text" type="java.lang.String" value="Hallod, hogy el&#xf6;lr&#x151;l s&#xfa;lyos l&#xe9;p&#xe9;sek k&#xf6;zelednek. Egy sz&#xe9;les, &#xe1;llatb&#x151;r&#xf6;kbe &#xf6;lt&#xf6;z&#xf6;tt, &#xa;k&#x151;balt&#xe1;s, primit&#xed;vl&#xe9;ny l&#xe9;p el&#x151;. Ahogy megl&#xe1;t, morog, a f&#xf6;ldre k&#xf6;p, majd a k&#x151;balt&#xe1;t&#xa;felemelve k&#xf6;zeledik, &#xe9;s mindennek kin&#xe9;z, csak bar&#xe1;ts&#xe1;gosnak nem.&#xa;El&#x151;h&#xfa;zod kardodat, &#xe9;s felk&#xe9;sz&#xfc;lsz, hogy megk&#xfc;zdj a Barlangi Emberrel."/>
@@ -2289,6 +2296,7 @@
               <SubComponents>
                 <Component class="javax.swing.JTextArea" name="jTextArea5">
                   <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
                     <Property name="text" type="java.lang.String" value="F&#xf6;lm&#xe1;szol a l&#xe1;gy szikl&#xe1;ra, att&#xf3;l tartasz, hogy b&#xe1;r-melyik pillanatban elnyelhet. &#xa;Neh&#xe9;z &#xe1;tverg&#x151;dni rajta, mert puha anyag&#xe1;ban alig tudod a l&#xe1;badat emelni,&#xa;de v&#xe9;g&#xfc;l &#xe1;tverg&#x151;dsz rajta. Megk&#xf6;nnyebb&#xfc;lten &#xe9;rsz &#xfa;jra szil&#xe1;rd talajra,&#xa;&#xe9;s fordulsz kelet fel&#xe9;."/>
